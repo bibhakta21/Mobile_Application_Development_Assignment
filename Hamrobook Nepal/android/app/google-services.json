@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824505400698",
+    "project_id": "hamro-book-nepal",
+    "storage_bucket": "hamro-book-nepal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824505400698:android:90e24fc9f66a2c0b53aac3",
+        "android_client_info": {
+          "package_name": "com.example.e_book"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArL2kc4DfZsWvUoz1obl3y2ZZ9kcw_vIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

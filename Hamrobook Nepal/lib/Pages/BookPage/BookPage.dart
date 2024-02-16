@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class BookPage extends StatelessWidget {
-  
+  final String bookUrl;
   const BookPage({super.key, required this.bookUrl});
 
   @override
@@ -18,7 +18,7 @@ class BookPage extends StatelessWidget {
         ),
         backgroundColor: Theme.of(context).colorScheme.primary,
         title: Text(
-            "Book title",
+          "Book title",
           style: Theme.of(context)
               .textTheme
               .headlineMedium

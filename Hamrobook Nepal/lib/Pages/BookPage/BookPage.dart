@@ -18,6 +18,7 @@ class BookPage extends StatelessWidget {
         ),
         backgroundColor: Theme.of(context).colorScheme.primary,
         title: Text(
+            "Book title",
           style: Theme.of(context)
               .textTheme
               .headlineMedium

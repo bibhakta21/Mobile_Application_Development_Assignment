@@ -78,7 +78,22 @@ class BookDetailsHeader extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-           
+            Column(
+              children: [
+                Text(
+                  "Rating",
+                  style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+                Text(
+                  rating,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+              ],
+            ),
            
             
            

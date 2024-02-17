@@ -126,7 +126,22 @@ class BookDetailsHeader extends StatelessWidget {
                 ),
               ],
             ),
-           
+            Column(
+              children: [
+                Text(
+                  "Audio",
+                  style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+                Text(
+                  audioLen,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+              ],
+            ),
           ],
         )
       ],

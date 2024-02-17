@@ -24,7 +24,25 @@ class BookActionBtn extends StatelessWidget {
               bookUrl: bookUrl,
             ));
           },
-          
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SvgPicture.asset(
+                "Assets/Icons/book.svg",
+                height: 20, // Adjust the height to make the icon smaller
+                width: 20, // Adjust the width to make the icon smaller
+              ),
+              SizedBox(width: 5), // Adjust the spacing between icon and text
+              Text(
+                "READ BOOK",
+                style: Theme.of(context).textTheme.bodyText2?.copyWith(
+                  color: Theme.of(context).colorScheme.background,
+                  letterSpacing: 1.2,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

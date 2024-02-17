@@ -62,7 +62,16 @@ class BookDetails extends StatelessWidget {
                   const SizedBox(height: 20),
                  
                   const SizedBox(height: 8),
-                 
+                  Row(
+                    children: [
+                      Flexible(
+                        child: Text(
+                          book.aboutAuthor!,
+                          style: Theme.of(context).textTheme.labelMedium,
+                        ),
+                      ),
+                    ],
+                  ),
                   const SizedBox(height: 30),
                   BookActionBtn(
                     bookUrl: book.bookurl!,

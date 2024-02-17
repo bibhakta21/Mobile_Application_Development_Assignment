@@ -110,7 +110,22 @@ class BookDetailsHeader extends StatelessWidget {
                 ),
               ],
             ),
-            
+            Column(
+              children: [
+                Text(
+                  "Language",
+                  style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+                Text(
+                  langugae,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+              ],
+            ),
            
           ],
         )

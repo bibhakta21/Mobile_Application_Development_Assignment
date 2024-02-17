@@ -59,7 +59,11 @@ class BookDetails extends StatelessWidget {
                       ),
                     ],
                   ),
-                  
+                  const SizedBox(height: 20),
+                 
+                  const SizedBox(height: 8),
+                 
+                  const SizedBox(height: 30),
                   BookActionBtn(
                     bookUrl: book.bookurl!,
                   ),

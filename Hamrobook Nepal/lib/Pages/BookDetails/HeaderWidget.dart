@@ -94,7 +94,22 @@ class BookDetailsHeader extends StatelessWidget {
                 ),
               ],
             ),
-           
+            Column(
+              children: [
+                Text(
+                  "Pages",
+                  style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+                Text(
+                  pages,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.background,
+                      ),
+                ),
+              ],
+            ),
             
            
           ],

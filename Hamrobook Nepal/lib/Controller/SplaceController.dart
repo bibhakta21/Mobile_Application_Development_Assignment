@@ -8,7 +8,8 @@ class SplaceController extends GetxController {
 
   @override
   void onInit() {
-   
+    super.onInit();
+    splaceController();
   }
 
   void splaceController() {

@@ -107,4 +107,23 @@ class BookModel {
     return _data;
   }
 
+  // Getters
+  String? get getId => id;
+  String? get getTitle => title;
+  String? get getDescription => description;
+  String? get getRating => rating;
+  int? get getPages => pages;
+  String? get getLanguage => language;
+  String? get getAudioLen => audioLen;
+  String? get getAuthor => author;
+  String? get getAboutAuthor => aboutAuthor;
+  String? get getBookUrl => bookurl;
+  String? get getAudioUrl => audioUrl;
+  String? get getCategory => category;
+  String? get getCoverUrl => coverUrl;
+  int? get getPrice => price;
+  String? get getNumberofRating => numberofRating;
+  String? get getGenre => genre;
+
+
 }

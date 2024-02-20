@@ -140,5 +140,6 @@ class BookModel {
   set setCategory(String? value) => category = value;
   set setCoverUrl(String? value) => coverUrl = value;
   set setPrice(int? value) => price = value;
+  set setNumberofRating(String? value) => numberofRating = value;
 
 }

@@ -129,4 +129,6 @@ class BookModel {
   set setId(String? value) => id = value;
   set setTitle(String? value) => title = value;
   set setDescription(String? value) => description = value;
+  set setRating(String? value) => rating = value;
+  set setPages(int? value) => pages = value;
 }

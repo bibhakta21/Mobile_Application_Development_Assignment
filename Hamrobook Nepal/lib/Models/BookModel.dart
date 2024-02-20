@@ -138,5 +138,6 @@ class BookModel {
   set setBookUrl(String? value) => bookurl = value;
   set setAudioUrl(String? value) => audioUrl = value;
   set setCategory(String? value) => category = value;
+  set setCoverUrl(String? value) => coverUrl = value;
  
 }

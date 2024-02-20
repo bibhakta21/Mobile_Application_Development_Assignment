@@ -125,5 +125,8 @@ class BookModel {
   String? get getNumberofRating => numberofRating;
   String? get getGenre => genre;
 
-
+  // Setters
+  set setId(String? value) => id = value;
+  set setTitle(String? value) => title = value;
+  set setDescription(String? value) => description = value;
 }

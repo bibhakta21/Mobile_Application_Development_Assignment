@@ -133,5 +133,7 @@ class BookModel {
   set setPages(int? value) => pages = value;
   set setLanguage(String? value) => language = value;
   set setAudioLen(String? value) => audioLen = value;
+  set setAuthor(String? value) => author = value;
+  set setAboutAuthor(String? value) => aboutAuthor = value;
 
 }

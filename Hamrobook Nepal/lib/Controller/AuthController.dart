@@ -20,8 +20,8 @@ class AuthController extends GetxController {
         accessToken: googleAuth?.accessToken,
         idToken: googleAuth?.idToken,
       );
-      
+      await auth.signInWithCredential(credential);
+      successMessage('Login Success');
+   
   }
-
-
 }

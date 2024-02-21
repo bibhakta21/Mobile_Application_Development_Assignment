@@ -22,6 +22,9 @@ class AuthController extends GetxController {
       );
       await auth.signInWithCredential(credential);
       successMessage('Login Success');
-   
+      Get.offAll(HomePage());
+    } 
   }
+
+
 }

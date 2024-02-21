@@ -25,7 +25,7 @@ class AuthController extends GetxController {
       Get.offAll(HomePage());
     } catch (ex) {
       print(ex);
- 
+      errorMessage("Error ! Try Agin");
     }
    
   }

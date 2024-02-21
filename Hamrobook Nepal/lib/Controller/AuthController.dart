@@ -11,7 +11,16 @@ class AuthController extends GetxController {
   final auth = FirebaseAuth.instance;
 
   void loginWithEmail() async {
-   
+    isLoading.value = true;
+    try {
+      final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+      final GoogleSignInAuthentication? googleAuth =
+          await googleUser?.authentication;
+      final credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth?.accessToken,
+        idToken: googleAuth?.idToken,
+      );
+      
   }
 
 

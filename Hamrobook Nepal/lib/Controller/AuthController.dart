@@ -10,7 +10,9 @@ class AuthController extends GetxController {
 
   final auth = FirebaseAuth.instance;
 
-
+  void loginWithEmail() async {
+   
+  }
 
 
 }

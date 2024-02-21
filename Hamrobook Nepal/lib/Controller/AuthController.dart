@@ -27,8 +27,12 @@ class AuthController extends GetxController {
       print(ex);
       errorMessage("Error ! Try Agin");
     }
-   
+    isLoading.value = false;
   }
 
-
+  void signout() async {
+    await auth.signOut();
+    successMessage('Logout');
+    Get.offAll(WelcomePage());
+  }
 }

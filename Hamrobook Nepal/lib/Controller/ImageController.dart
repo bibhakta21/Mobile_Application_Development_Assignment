@@ -12,7 +12,7 @@ class ImageController extends GetxController {
       var uuid = Uuid();
       var fileName = uuid.v1();
       var response = FirebaseStorage.instance.ref().child("Image/$fileName");
-      
+      print(response.storage.ref().getDownloadURL());
     }
   }
 

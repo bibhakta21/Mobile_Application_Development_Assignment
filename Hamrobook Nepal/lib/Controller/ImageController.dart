@@ -4,5 +4,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:uuid/uuid.dart';
 
 class ImageController extends GetxController {
+  ImagePicker imagePicker = ImagePicker();
+
  
 }

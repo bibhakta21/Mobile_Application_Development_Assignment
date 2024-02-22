@@ -8,7 +8,9 @@ class ImageController extends GetxController {
     void pickImage() async {
     final XFile? image =
         await imagePicker.pickImage(source: ImageSource.gallery);
-  
+    if (image != null) {
+    
+    }
   }
 
  

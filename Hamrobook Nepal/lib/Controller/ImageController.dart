@@ -5,6 +5,9 @@ import 'package:uuid/uuid.dart';
 
 class ImageController extends GetxController {
   ImagePicker imagePicker = ImagePicker();
+    void pickImage() async {
+ 
+  }
 
  
 }

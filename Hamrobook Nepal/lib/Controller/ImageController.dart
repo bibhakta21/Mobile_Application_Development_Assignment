@@ -11,7 +11,8 @@ class ImageController extends GetxController {
     if (image != null) {
       var uuid = Uuid();
       var fileName = uuid.v1();
-     
+      var response = FirebaseStorage.instance.ref().child("Image/$fileName");
+      
     }
   }
 

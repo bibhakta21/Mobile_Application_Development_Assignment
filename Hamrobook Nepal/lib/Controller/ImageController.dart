@@ -9,7 +9,9 @@ class ImageController extends GetxController {
     final XFile? image =
         await imagePicker.pickImage(source: ImageSource.gallery);
     if (image != null) {
-    
+      var uuid = Uuid();
+      var fileName = uuid.v1();
+     
     }
   }
 

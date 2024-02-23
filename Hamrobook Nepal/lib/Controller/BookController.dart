@@ -151,7 +151,18 @@ class BookController extends GetxController {
   }
 
 
+  void searchBooks(String query) async {
+    bookData.clear();
 
+    var books = await db
+        .collection("Books")
+        .where('title', isGreaterThanOrEqualTo: query)
+        .get();
+
+    for (var book in books.docs) {
+      bookData.add(BookModel.fromJson(book.data()));
+    }
+  }
 
 
   void addBookInUserDb(BookModel book) async {

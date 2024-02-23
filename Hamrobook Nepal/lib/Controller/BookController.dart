@@ -151,6 +151,8 @@ class BookController extends GetxController {
   }
 
 
+
+
   void searchBooks(String query) async {
     bookData.clear();
 
